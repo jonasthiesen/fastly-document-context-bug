@@ -11,7 +11,6 @@ The `DocumentContext` is `undefined` in Fastly when you use `getServerSideProps`
 1. It's still working
 1. Run with Fastly: `npm run fastly-serve`
 1. Go to http://localhost:7676 and notice the context is missing
-1. Now the context is missing
 1. If you comment out the `getServerSideProps` from `index.tsx`, it will show the context.
 
 ## Why this is an issue
